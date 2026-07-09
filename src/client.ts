@@ -11,3 +11,4 @@ export function createClient(baseUrl: string) {
     getTodo: (id: string) => get<Todo>(`/todos/${id}`),
   };
 }
+// createTodo(title: string) coming soon
