@@ -11,3 +11,4 @@ export function createClient(baseUrl: string) {
     getTodo: (id: string) => get<Todo>(`/todos/${id}`),
   };
 }
+// retry policy: 3x backoff
